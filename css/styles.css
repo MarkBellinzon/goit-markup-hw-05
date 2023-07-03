@@ -815,6 +815,6 @@ card:focus {
   color: var(--brand-color);
   padding: 16px 32px;
   align-items: center;
-  cursor: pointer;
+
   margin: 0 120px 24px 119px;
 }
