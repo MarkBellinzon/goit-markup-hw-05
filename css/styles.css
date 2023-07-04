@@ -941,6 +941,12 @@ card:focus {
   fill: var(--light-cloud-color);
 }
 
+.checkbox-input:checked + .checkbox-point .span-icon-checkbox {
+  border: none;
+  background-color: var(--pressed-state-color);
+  fill: var(--light-cloud-color);
+}
+
 .checkbox-icon {
   fill: none;
 }
