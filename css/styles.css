@@ -1,4 +1,4 @@
-/*
+/**
   |============================
   | Common styles
   |============================
@@ -590,7 +590,7 @@ ol {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-
+  min-width: 165px;
   cursor: pointer;
   margin-left: 24px;
   min-width: 40px;
@@ -850,6 +850,10 @@ card:focus {
   height: 24px;
 }
 
+.form-icon-cont {
+  position: relative;
+}
+
 .form-input:focus + .form-icon {
   fill: var(--primary-brand-color);
   stroke: var(--primary-brand-color);
@@ -898,7 +902,13 @@ card:focus {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
+  margin-bottom: 16px;
 }
+
+.ancket-container-text {
+  padding: 0 24px;
+}
+
 .form-input-txeader::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
@@ -933,6 +943,11 @@ card:focus {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--subtle-text-color);
+  margin-bottom: 24px;
+}
+
+.checkbox-icon {
+  fill: none;
 }
 
 .form-checkbox {
@@ -943,6 +958,10 @@ card:focus {
   align-items: center;
 }
 
+.form-button-cont {
+  margin: 0 120px;
+}
+
 .form-button {
   width: 169px;
   height: 56px;
@@ -951,7 +970,5 @@ card:focus {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--brand-color);
   padding: 16px 32px;
-  align-items: center;
   cursor: pointer;
-  margin: 0 120px 24px 119px;
 }
