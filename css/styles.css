@@ -935,7 +935,7 @@ card:focus {
   margin-bottom: 24px;
 }
 
-.checkbox-input:checked {
+.span-icon-checkbox:checked {
   background-color: var(--pressed-state-color);
   border: none;
   fill: var(--light-cloud-color);
