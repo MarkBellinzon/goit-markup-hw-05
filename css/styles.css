@@ -885,8 +885,7 @@ card:focus {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--dark-color);
-  margin-bottom: 16px;
-  margin-top: 72px;
+
 }
 
 .form-input-txeader {
@@ -908,7 +907,7 @@ card:focus {
 }
 
 .ancket-container-text {
-  padding: 0 24px;
+
   margin-bottom: 16px;
 }
 
