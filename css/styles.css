@@ -924,8 +924,7 @@ card:focus {
 }
 
 .checkbox-point {
-  display: flex;
-  gap: 8px;
+ 
   cursor: pointer;
   font-size: 12px;
   line-height: 1.17;
